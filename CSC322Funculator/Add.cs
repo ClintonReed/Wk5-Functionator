@@ -30,7 +30,7 @@ namespace CSC322Funculator
 
             int num1 = int.Parse(num1Parm);
             int num2 = int.Parse(num2Parm);
-            int sum = num1 +num2;
+            int sum = num1 + num2;
 
             return (ActionResult)new OkObjectResult($"Sum = {sum}");
         }
