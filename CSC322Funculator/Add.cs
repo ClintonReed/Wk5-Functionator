@@ -24,7 +24,7 @@ namespace CSC322Funculator
 
             //check 2 parms are passed
 
-            if( num1Parm == null || num1Parm ==null) {
+            if( num1Parm == null || num2Parm ==null) {
                 return new BadRequestObjectResult("Please pass a num1 and num2 on the query string");
             }
 
